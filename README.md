@@ -95,3 +95,8 @@ flutter pub get
 
 # Run the app on device or emulator
 flutter run
+
+```
+
+## 📬 Contact Developer
+>🛠️ If you experience any issues, feel free to contact me at : 📩 zibranaby069@gmail.com
