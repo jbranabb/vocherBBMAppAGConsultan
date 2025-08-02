@@ -21,18 +21,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        appBarTheme: const AppBarTheme(
+        appBarTheme: AppBarTheme(
           iconTheme: IconThemeData(
             color: Colors.white
           ),
           centerTitle: true,
-          color: Colors.blue,
+          color: Colors.blue.shade900,
           titleTextStyle: TextStyle(
             fontWeight: FontWeight.w700,
             fontSize: 24,
             color: Colors.white)
         ),
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 33, 177, 243)),
         useMaterial3: true,
       ),
       home:InputPage(), 

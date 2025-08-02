@@ -34,8 +34,8 @@ class _InputPageState extends State<InputPage> {
     'Motor',
   ];
   final List<String> dataNopol = [
-    'BN 1729 WN',
-    'A 8660 ZS',
+    'A 2637 AD',
+    'A 0900 SD',
   ];
 
   @override
@@ -178,7 +178,7 @@ class _InputPageState extends State<InputPage> {
                 ],
               ),
               SizedBox(height: 40,),
-              Text('Powered by Jibran', style: TextStyle(color: Colors.grey, ),)
+              Text('Powered by Jbranabb', style: TextStyle(color: Colors.grey, ),)
             ],
           ),
         ),
